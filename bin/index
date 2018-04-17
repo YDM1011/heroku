@@ -6,10 +6,10 @@
 
 var app = require('../app');
 var debug = require('debug')('talant:server');
-// var http = require('http');
+var http = require('http');
 var url = require('url');
 
-const WebSocket = require('wss');
+const WebSocket = require('ws');
 
 /**
  * Get port from environment and store in Express.
@@ -22,7 +22,7 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-var server = app;
+var server = http.createServer(app);
 var wss = new WebSocket.Server({ server });
 app.set('wss', wss);
 var ws = require('../appServer/controlers/ws');

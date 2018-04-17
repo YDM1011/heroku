@@ -1,5 +1,5 @@
 <script>
-    window.ws = new WebSocket('wss://pure-beyond-93105.herokuapp.com');
+    window.ws = new WebSocket('ws://localhost:5000');
 
     ws.onopen = function () {
         console.log('websocket is connected ...');
@@ -25,5 +25,6 @@
         console.log("disconect");
     }
 </script>
+
 </body>
 </html>
