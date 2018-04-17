@@ -29,7 +29,7 @@ app.use('/', routes);
 app.use('/api', api);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-    const err = new Error('Not Found 404');
+    const err = new Error('ops, this page not found');
     err.status = 404;
     next(err);
 });
