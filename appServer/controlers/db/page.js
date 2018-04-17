@@ -158,6 +158,15 @@ module.exports.locationsDeleteOne = function(req, res) {
         });
     }
 }
+
+const errPage = res => {
+    const err = new Error('ops, this page not found');
+    err.status = 404;
+    res.locals.message = err.message;
+    res.locals.error = '';
+    res.status(err.status);
+    res.render('error');
+}
 module.exports.pageReadOne = (req, res, page) => {
     if (req.params.lan){
         console.log("lan", req.params.lan);
@@ -166,8 +175,7 @@ module.exports.pageReadOne = (req, res, page) => {
             .where('lan').equals(req.params.lan)
             .exec(function(err, content) {
                 if(!content) {
-                    console.log("not found obg");
-                    res.status(404);
+                    errPage(res);
                     return
                 } else if(err) {
                     console.log(err);
@@ -182,8 +190,7 @@ module.exports.pageReadOne = (req, res, page) => {
             .where('lan').equals('en')
             .exec(function(err, content) {
                 if(!content) {
-                    console.log("not found obg");
-                    res.status(404);
+                    errPage(res);
                     return
                 } else if(err) {
                     console.log(err);
