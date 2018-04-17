@@ -1,0 +1,9 @@
+<% include layout/head %>
+<h1><%= title %></h1>
+<form action="/confirm" method="post">
+    <input type="email" name="email" placeholder="@email"><br>
+    <input type="text" name="login" placeholder="login"><br>
+    <input type="password" name="password" placeholder="password"><br>
+    <button type="submit">Finished</button>
+</form>
+<% include layout/footer %>

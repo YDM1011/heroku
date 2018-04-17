@@ -1,0 +1,20 @@
+{
+    "en" : {
+      "home" : {
+        "title": "en test",
+        "lan": "TEST EN"
+      },
+      "user" : {
+        "lan": "it use en"
+      }
+    },
+    "ua" : {
+      "home" : {
+        "title": "ua test",
+        "lan": "TEST UA"
+      },
+      "user" : {
+        "lan": "it use ua"
+      }
+    }
+}
