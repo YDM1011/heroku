@@ -167,7 +167,7 @@ module.exports.pageReadOne = (req, res, page) => {
             .exec(function(err, content) {
                 if(!content) {
                     console.log("not found obg");
-                    res.status(500).send('Something broke!');
+                    res.status(404);
                     return
                 } else if(err) {
                     console.log(err);
@@ -183,7 +183,7 @@ module.exports.pageReadOne = (req, res, page) => {
             .exec(function(err, content) {
                 if(!content) {
                     console.log("not found obg");
-                    res.status(500).send('Something broke!');
+                    res.status(404);
                     return
                 } else if(err) {
                     console.log(err);

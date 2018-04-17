@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0706fa-2cf7-4c3d-a1d8-b04c281fd888" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appServer/controlers/db/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/appServer/controlers/db/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appServer/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/appServer/views/error.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appServer/models/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,11 +45,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="295">
+              <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -67,8 +57,8 @@
       <file leaf-file-name="error.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appServer/views/error.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="240">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -81,6 +71,15 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appServer/controlers/db/page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="en.json" pinned="false" current-in-tab="false">
@@ -158,7 +157,6 @@
         <option value="$PROJECT_DIR$/appServer/controlers/db/text1.txt" />
         <option value="$PROJECT_DIR$/appServer/controlers/db/mars/html.pug" />
         <option value="$PROJECT_DIR$/appServer/controlers/db/mars/subject.pug" />
-        <option value="$PROJECT_DIR$/appServer/controlers/db/page.js" />
         <option value="$PROJECT_DIR$/appServer/controlers/db/user.js" />
         <option value="$PROJECT_DIR$/appServer/views/mail/e-mail.ejs" />
         <option value="$PROJECT_DIR$/appServer/views/layout/footer.ejs" />
@@ -166,8 +164,9 @@
         <option value="$PROJECT_DIR$/appServer/models/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/appServer/views/error.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/appServer/views/error.ejs" />
+        <option value="$PROJECT_DIR$/appServer/controlers/db/page.js" />
       </list>
     </option>
   </component>
@@ -214,21 +213,14 @@
               <item name="talant" type="b2602c69:ProjectViewProjectNode" />
               <item name="talant" type="462c0819:PsiDirectoryNode" />
               <item name="appServer" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="controlers" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="talant" type="b2602c69:ProjectViewProjectNode" />
               <item name="talant" type="462c0819:PsiDirectoryNode" />
               <item name="appServer" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="talant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="talant" type="462c0819:PsiDirectoryNode" />
-              <item name="appServer" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,12 +289,12 @@
       <workItem from="1523747185942" duration="4240000" />
       <workItem from="1523790415987" duration="598000" />
       <workItem from="1523874251737" duration="5452000" />
-      <workItem from="1523952991260" duration="5102000" />
+      <workItem from="1523952991260" duration="5581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128832000" />
+    <option name="totallyTimeSpent" value="129311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -585,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appServer/controlers/db/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="160" column="22" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appServer/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -632,17 +617,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appServer/views/error.ejs">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="295">
+          <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/appServer/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="240">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appServer/controlers/db/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="185" column="35" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
         </state>
       </provider>
     </entry>
