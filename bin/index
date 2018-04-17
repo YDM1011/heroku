@@ -9,7 +9,7 @@ var debug = require('debug')('talant:server');
 // var http = require('http');
 var url = require('url');
 
-const WebSocket = require('ws');
+const WebSocket = require('wss');
 
 /**
  * Get port from environment and store in Express.
