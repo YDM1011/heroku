@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a0706fa-2cf7-4c3d-a1d8-b04c281fd888" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/appServer/views/layout/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/appServer/views/layout/footer.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="7a0706fa-2cf7-4c3d-a1d8-b04c281fd888" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -73,8 +71,8 @@
       <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appServer/views/layout/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+            <state relative-caret-position="96">
+              <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -126,6 +124,7 @@
       <find>var</find>
       <find>rea</find>
       <find>confirm</find>
+      <find>Global</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -193,7 +192,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -358,15 +357,15 @@
       <workItem from="1523747185942" duration="4240000" />
       <workItem from="1523790415987" duration="598000" />
       <workItem from="1523874251737" duration="5452000" />
-      <workItem from="1523952991260" duration="11770000" />
+      <workItem from="1523952991260" duration="12456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135500000" />
+    <option name="totallyTimeSpent" value="136186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12908325" />
@@ -698,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appServer/views/layout/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
+        <state relative-caret-position="96">
+          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
