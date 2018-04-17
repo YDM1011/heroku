@@ -1,5 +1,5 @@
 <script>
-    window.ws = new WebSocket('ws://site');
+    window.ws = new WebSocket('ws://pure-beyond-93105.herokuapp.com');
 
     ws.onopen = function () {
         console.log('websocket is connected ...');
@@ -24,28 +24,6 @@
         clearTimeout(loopMessage);
         console.log("disconect");
     }
-</script>
-
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '1644388132319517',
-            cookie     : true,
-            xfbml      : true,
-            version    : '{latest-api-version}'
-        });
-
-        FB.AppEvents.logPageView();
-
-    };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>

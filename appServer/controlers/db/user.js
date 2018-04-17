@@ -2,6 +2,15 @@ const mongoose = require('mongoose');
 const ejs = require('ejs');
 const fs = require('fs');
 const User = mongoose.model('user');
+
+const errPage = res => {
+    const err = new Error('ops, this page not found');
+    err.status = 404;
+    res.locals.message = err.message;
+    res.locals.error = '';
+    res.status(err.status);
+    res.render('error');
+}
 module.exports.userConfirm = function(req, res, page){
     User
     .findOne({email: req.body.email})
@@ -16,7 +25,7 @@ module.exports.userConfirm = function(req, res, page){
             }, function(err, user) {
                 if(err) {
                     console.log(err);
-                    res.status(404).send('not valid form');
+                    errPage(res);
                     return;
                 } else {
                     keyConfirm = user._id;
@@ -34,7 +43,7 @@ module.exports.userConfirm = function(req, res, page){
                     console.log('created');
                     const contentMail ={
                         mensagem: 'Hello from Talants',
-                        link: 'http://site/confirmMail/' + keyConfirm
+                        link: 'https://pure-beyond-93105.herokuapp.com/confirmMail/' + keyConfirm
                     }
                     transporter.sendMail({
                         from: 'ydm101194@gmail.com',
@@ -71,7 +80,7 @@ module.exports.userCreate = function(req, res) {
                 content.veryfi = true;
                 content.save(function(err, content) {
                     if(err) {
-                        res.status(404).send('not found');
+                        errPage(res);
                         return;
                     } else {
                         res.status(202).send(content);
