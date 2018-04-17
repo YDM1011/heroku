@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0706fa-2cf7-4c3d-a1d8-b04c281fd888" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appServer/views/layout/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/appServer/views/layout/footer.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/index" beforeDir="false" afterPath="$PROJECT_DIR$/bin/index" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,7 +64,7 @@
       <file leaf-file-name="index" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/index">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="144">
               <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
@@ -75,8 +73,8 @@
       <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appServer/views/layout/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="24">
+              <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -360,12 +358,12 @@
       <workItem from="1523747185942" duration="4240000" />
       <workItem from="1523790415987" duration="598000" />
       <workItem from="1523874251737" duration="5452000" />
-      <workItem from="1523952991260" duration="11601000" />
+      <workItem from="1523952991260" duration="11770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135331000" />
+    <option name="totallyTimeSpent" value="135500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -649,13 +647,6 @@
     <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/appServer/views/layout/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appServer/controlers/db/page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -684,6 +675,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appServer/views/layout/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appServer/controlers/ws/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -693,15 +691,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/index">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="144">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appServer/views/layout/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="24">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
         </state>
       </provider>
     </entry>
